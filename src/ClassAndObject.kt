@@ -1,6 +1,7 @@
 import com.sun.jdi.IntegerType
 
 class Person(private var name: String, private var gender: String) {
+
     private lateinit var hobby: Array<String> // lateinit cannot be used with primitive types directly, including wrapper classes
     private var age: Int = 0
 //    private lateinit var age:Int
